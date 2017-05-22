@@ -270,17 +270,3 @@ FeiOutputFile:: %s\n\t\
 
 		# print the information 
 		print OutputPrint
-
-# filename = 'Beam_Axial_Load.h5.feioutput';
-# X = ESSI_Element(1,filename);
-# print X;
-# print X.ElementOutput([0,1,2]);
-
-# filename = 'NPPModel_DRM_Motion.h5.3.feioutput';
-# X = ESSI_Element(13050,filename);
-# print X;
-# # print X.TimeStepGaussOutput(8);
-# # print X.GaussPointCoordinates;
-# print X.GaussOutput([0,1])
-
-

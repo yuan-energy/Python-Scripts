@@ -1,0 +1,611 @@
+add section # 1 type FiberSection
+    TorsionConstant_GJ = 1e10*N*m*m;
+
+add fiber # 1 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, -0.144*m);
+
+add fiber # 2 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, -0.144*m);
+
+add fiber # 3 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, -0.144*m);
+
+add fiber # 4 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, -0.144*m);
+
+add fiber # 5 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, -0.144*m);
+
+add fiber # 6 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, -0.144*m);
+
+add fiber # 7 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, -0.144*m);
+
+add fiber # 8 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, -0.144*m);
+
+add fiber # 9 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, -0.144*m);
+
+add fiber # 10 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, -0.144*m);
+
+add fiber # 11 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, -0.112*m);
+
+add fiber # 12 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, -0.112*m);
+
+add fiber # 13 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, -0.112*m);
+
+add fiber # 14 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, -0.112*m);
+
+add fiber # 15 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, -0.112*m);
+
+add fiber # 16 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, -0.112*m);
+
+add fiber # 17 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, -0.112*m);
+
+add fiber # 18 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, -0.112*m);
+
+add fiber # 19 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, -0.112*m);
+
+add fiber # 20 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, -0.112*m);
+
+add fiber # 21 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, -0.08*m);
+
+add fiber # 22 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, -0.08*m);
+
+add fiber # 23 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, -0.08*m);
+
+add fiber # 24 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, -0.08*m);
+
+add fiber # 25 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, -0.08*m);
+
+add fiber # 26 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, -0.08*m);
+
+add fiber # 27 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, -0.08*m);
+
+add fiber # 28 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, -0.08*m);
+
+add fiber # 29 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, -0.08*m);
+
+add fiber # 30 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, -0.08*m);
+
+add fiber # 31 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, -0.048*m);
+
+add fiber # 32 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, -0.048*m);
+
+add fiber # 33 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, -0.048*m);
+
+add fiber # 34 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, -0.048*m);
+
+add fiber # 35 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, -0.048*m);
+
+add fiber # 36 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, -0.048*m);
+
+add fiber # 37 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, -0.048*m);
+
+add fiber # 38 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, -0.048*m);
+
+add fiber # 39 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, -0.048*m);
+
+add fiber # 40 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, -0.048*m);
+
+add fiber # 41 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, -0.016*m);
+
+add fiber # 42 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, -0.016*m);
+
+add fiber # 43 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, -0.016*m);
+
+add fiber # 44 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, -0.016*m);
+
+add fiber # 45 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, -0.016*m);
+
+add fiber # 46 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, -0.016*m);
+
+add fiber # 47 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, -0.016*m);
+
+add fiber # 48 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, -0.016*m);
+
+add fiber # 49 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, -0.016*m);
+
+add fiber # 50 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, -0.016*m);
+
+add fiber # 51 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, 0.016*m);
+
+add fiber # 52 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, 0.016*m);
+
+add fiber # 53 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, 0.016*m);
+
+add fiber # 54 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, 0.016*m);
+
+add fiber # 55 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, 0.016*m);
+
+add fiber # 56 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, 0.016*m);
+
+add fiber # 57 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, 0.016*m);
+
+add fiber # 58 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, 0.016*m);
+
+add fiber # 59 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, 0.016*m);
+
+add fiber # 60 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, 0.016*m);
+
+add fiber # 61 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, 0.048*m);
+
+add fiber # 62 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, 0.048*m);
+
+add fiber # 63 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, 0.048*m);
+
+add fiber # 64 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, 0.048*m);
+
+add fiber # 65 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, 0.048*m);
+
+add fiber # 66 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, 0.048*m);
+
+add fiber # 67 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, 0.048*m);
+
+add fiber # 68 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, 0.048*m);
+
+add fiber # 69 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, 0.048*m);
+
+add fiber # 70 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, 0.048*m);
+
+add fiber # 71 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, 0.08*m);
+
+add fiber # 72 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, 0.08*m);
+
+add fiber # 73 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, 0.08*m);
+
+add fiber # 74 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, 0.08*m);
+
+add fiber # 75 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, 0.08*m);
+
+add fiber # 76 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, 0.08*m);
+
+add fiber # 77 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, 0.08*m);
+
+add fiber # 78 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, 0.08*m);
+
+add fiber # 79 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, 0.08*m);
+
+add fiber # 80 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, 0.08*m);
+
+add fiber # 81 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, 0.112*m);
+
+add fiber # 82 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, 0.112*m);
+
+add fiber # 83 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, 0.112*m);
+
+add fiber # 84 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, 0.112*m);
+
+add fiber # 85 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, 0.112*m);
+
+add fiber # 86 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, 0.112*m);
+
+add fiber # 87 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, 0.112*m);
+
+add fiber # 88 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, 0.112*m);
+
+add fiber # 89 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, 0.112*m);
+
+add fiber # 90 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, 0.112*m);
+
+add fiber # 91 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.144*m, 0.144*m);
+
+add fiber # 92 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.112*m, 0.144*m);
+
+add fiber # 93 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.08*m, 0.144*m);
+
+add fiber # 94 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.048*m, 0.144*m);
+
+add fiber # 95 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (-0.016*m, 0.144*m);
+
+add fiber # 96 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.016*m, 0.144*m);
+
+add fiber # 97 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.048*m, 0.144*m);
+
+add fiber # 98 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.08*m, 0.144*m);
+
+add fiber # 99 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.112*m, 0.144*m);
+
+add fiber # 100 using material # 1 to section # 1
+fiber_cross_section = 0.001024*m^2
+fiber_location = (0.144*m, 0.144*m);
+
+add fiber # 101 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.18*m, 0.18*m);
+
+add fiber # 102 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.14*m, 0.18*m);
+
+add fiber # 103 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.1*m, 0.18*m);
+
+add fiber # 104 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.06*m, 0.18*m);
+
+add fiber # 105 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.02*m, 0.18*m);
+
+add fiber # 106 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.02*m, 0.18*m);
+
+add fiber # 107 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.06*m, 0.18*m);
+
+add fiber # 108 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.1*m, 0.18*m);
+
+add fiber # 109 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.14*m, 0.18*m);
+
+add fiber # 110 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.18*m, 0.18*m);
+
+add fiber # 111 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.18*m, -0.18*m);
+
+add fiber # 112 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.14*m, -0.18*m);
+
+add fiber # 113 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.1*m, -0.18*m);
+
+add fiber # 114 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.06*m, -0.18*m);
+
+add fiber # 115 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (-0.02*m, -0.18*m);
+
+add fiber # 116 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.02*m, -0.18*m);
+
+add fiber # 117 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.06*m, -0.18*m);
+
+add fiber # 118 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.1*m, -0.18*m);
+
+add fiber # 119 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.14*m, -0.18*m);
+
+add fiber # 120 using material # 2 to section # 1
+fiber_cross_section = 0.0016*m^2
+fiber_location = (0.18*m, -0.18*m);
+
+add fiber # 121 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.198*m, 0*m);
+
+add fiber # 122 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.194*m, 0*m);
+
+add fiber # 123 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.19*m, 0*m);
+
+add fiber # 124 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.186*m, 0*m);
+
+add fiber # 125 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.182*m, 0*m);
+
+add fiber # 126 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.178*m, 0*m);
+
+add fiber # 127 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.174*m, 0*m);
+
+add fiber # 128 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.17*m, 0*m);
+
+add fiber # 129 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.166*m, 0*m);
+
+add fiber # 130 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (-0.162*m, 0*m);
+
+add fiber # 131 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.162*m, 0*m);
+
+add fiber # 132 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.166*m, 0*m);
+
+add fiber # 133 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.17*m, 0*m);
+
+add fiber # 134 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.174*m, 0*m);
+
+add fiber # 135 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.178*m, 0*m);
+
+add fiber # 136 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.182*m, 0*m);
+
+add fiber # 137 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.186*m, 0*m);
+
+add fiber # 138 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.19*m, 0*m);
+
+add fiber # 139 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.194*m, 0*m);
+
+add fiber # 140 using material # 2 to section # 1
+fiber_cross_section = 0.00128*m^2
+fiber_location = (0.198*m, 0*m);
+
+add fiber # 141 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (-0.16*m, 0.16*m);
+
+add fiber # 142 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (-0.0533333*m, 0.16*m);
+
+add fiber # 143 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (0.0533333*m, 0.16*m);
+
+add fiber # 144 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (0.16*m, 0.16*m);
+
+add fiber # 145 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (-0.16*m, -0.16*m);
+
+add fiber # 146 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (-0.0533333*m, -0.16*m);
+
+add fiber # 147 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (0.0533333*m, -0.16*m);
+
+add fiber # 148 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (0.16*m, -0.16*m);
+
+add fiber # 149 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (-0.16*m, 0.0533333*m);
+
+add fiber # 150 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (0.16*m, 0.0533333*m);
+
+add fiber # 151 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (-0.16*m, -0.0533333*m);
+
+add fiber # 152 using material # 3 to section # 1
+fiber_cross_section = 0.0002*m^2
+fiber_location = (0.16*m, -0.0533333*m);
+

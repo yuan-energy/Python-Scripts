@@ -1,0 +1,26 @@
+Generate_DRM(GeometryFile="geometry.fei",DrmMaterial=8,WidthX=5,WidthY=5,WidthZ=5,GF_Unit_To_SI_Unit=1,Tol=1,MotionName='M5_5',OutputPath='./',TestNodeNum=None)
+
+Assumptions of this Script
+---------------------------
+
+It assumes that the DRM Boundary is a cuboidal shape opened from top. 
+It is  also assumed that the DRM boundary has a unique material tag or no
+
+Input Parameters 
+-----------------
+
+GeometryFile          := is the name of the ESSI input file which contains at least the information (nodes and elements ) for DRM Layer
+DrmMaterial           := material tag of DRM Layer
+WidthX                := Width of DRM layer in X -Direction
+WidthY                := Width of DRM Layer in Y-Direction 
+WidthZ                := Width of DRM Layer in Z-Direction 
+GF_Unit_To_SI_Unit    := Conversion factor from geometry file Unit to SI unit
+Tol                   := Tolereance for searching nodes (Should be less than mesh size in SI Units)
+MotionName            := DRM Input motion name. A input file with that name would be created
+OutputPath            := Path where the DRM input file would be created 
+TestNodeNum           := Number of Nodes after which program would terminate. By default node will generate output for all notes. Usefull for debugging.
+
+
+
+Enter the python file := Write only the file name containing function 'getField(x,y,z,t)' without '.py' extension. 
+						 Ex:- 'Field.py' will be written as 'field' without '.py'

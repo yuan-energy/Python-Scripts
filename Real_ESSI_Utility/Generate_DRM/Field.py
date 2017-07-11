@@ -18,7 +18,7 @@ import math;
 import numpy as np;
 
 
-def getField (x,y,z,DRM_Time):
+def getField (node_no,x,y,z,DRM_Time):
 
 	NumTimeSteps = DRM_Time.shape[0];
 	acceleration = np.zeros([3, NumTimeSteps],dtype=np.double);

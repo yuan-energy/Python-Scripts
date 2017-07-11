@@ -359,7 +359,7 @@ def Generate_DRM(GeometryFile="geometry.fei",DrmMaterial=8,WidthX=5,WidthY=5,Wid
 			x = NodeObj.Xcord*GF_Unit_To_SI_Unit;
 			y = NodeObj.Ycord*GF_Unit_To_SI_Unit;
 			z = NodeObj.Zcord*GF_Unit_To_SI_Unit;
-			disp, acc = module.getField(x,y,z,DRM_Time);
+			disp, acc = module.getField(NodeObj.Id,x,y,z,DRM_Time);
 			DRM_Displacement = disp;
 			DRM_Acceleration = acc;
 

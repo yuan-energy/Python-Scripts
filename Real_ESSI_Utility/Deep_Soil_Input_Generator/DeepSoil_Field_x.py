@@ -31,7 +31,7 @@ from openpyxl import *
 
 
 
-def getField (x,y,z,DRM_Time):
+def getField (node_no,x,y,z,DRM_Time):
 
 	TimeVectorSize = DRM_Time.shape[0]; # variables accessible to user  
 	acceleration = np.zeros([3, TimeVectorSize],dtype=np.double); # variables accessible to user  
